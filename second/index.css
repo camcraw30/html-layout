@@ -1,20 +1,67 @@
-.top_box {
-    width: 700px;
-    height: 185px;
-    background-color: rgb(0, 0, 0);
-    left: 100em;
+header{
+    height: 150px;
+    width: 720px;
+    border: 2px black solid;
+    margin: 5px 5px 5px 5px
 }
-
-.mid_box {
-    width: 100px;
-    height: 400px;
-    background-color: rgba(168, 66, 66, 0.918);
+.second-table{
+    height: 150px;
+    width: 720px;
+    border-style: dotted;
+    margin: 20px 5px 5px 5px
 }
-
-.bottom_box {
-    width: 700px;
-    height: 400px;
-    background-color: rgba(46, 43, 43, 0.801);
-    top: 10em;
-    left: 8em; 
+.third-table{
+    height: 250px;
+    width: 350px;
+    border: 1px grey solid;
+    position: fixed;
+    top: 350px;
+    left: 185px;
+    bottom: 0;
+    right: 0;
+}
+.purple-rectangle{
+    background-color: purple;
+    height: 90px;
+    width: 30px;
+    margin: 50px 0px 0px 10px;
+}
+.green-rectangle{
+    background-color: green;
+    height: 130px;
+    width: 300px;
+    margin: 10px 100px 10px 100px;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.blue-circle{
+    background-color: aqua;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 10px 0px 10px 450px;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.yellow-rectangle{
+    background-color: yellow;
+    height: 100px;
+    width: 650px;
+    margin: 25px 20px 20px 30px;
+    box-shadow: 10px 10px 5px black;
+}
+p{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+    font-weight: 600;
 }
